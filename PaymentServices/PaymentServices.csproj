@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Data\" />
+    <None Remove="Properties\" />
+    <None Remove="Services\" />
+    <None Remove="Types\" />
+    <None Remove="System.Configuration.ConfigurationManager" />
+    <None Remove="Common\" />
+    <None Remove="Data\Contracts\" />
+    <None Remove="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Services\" />
+    <Folder Include="Types\" />
+    <Folder Include="Common\" />
+    <Folder Include="Data\Contracts\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.1" />
+  </ItemGroup>
+</Project>

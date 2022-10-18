@@ -1,0 +1,12 @@
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.csproj.AssemblyReference.cache
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.GeneratedMSBuildEditorConfig.editorconfig
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.AssemblyInfoInputs.cache
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.AssemblyInfo.cs
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.csproj.CoreCompileInputs.cache
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/bin/Debug/net6.0/PaymentServices.deps.json
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/bin/Debug/net6.0/PaymentServices.dll
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/bin/Debug/net6.0/PaymentServices.pdb
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.dll
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/refint/PaymentServices.dll
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/PaymentServices.pdb
+/Users/panayot.bozhikov/Projects/PaymentServices/PaymentServices/obj/Debug/net6.0/ref/PaymentServices.dll
