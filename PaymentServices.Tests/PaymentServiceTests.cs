@@ -1,4 +1,5 @@
 ﻿using System;
+using PaymentServices.Commands;
 using PaymentServices.Data;
 using PaymentServices.Services;
 using PaymentServices.Types;
@@ -33,9 +34,13 @@ namespace PaymentServices.Tests
         private AccountDataStore accountDataStore;
         private PaymentService service;
 
+        private CommandInvoker invoker;
+        
         [SetUp]
         public void Setup()
         {
+            invoker = new CommandInvoker();
+            
             firstAccount = new Account()
             {
                 AccountNumber = ACCOUNT_NUMBER_FIRST,
@@ -64,8 +69,7 @@ namespace PaymentServices.Tests
 
             service = new PaymentService(accountDataStore);
 
-            accountDataStore.Accounts
-                .AddRange(new Account[] { firstAccount, secondAccount, thirdAccount });
+            accountDataStore.AddAccountRange(firstAccount, secondAccount, thirdAccount);
         }
 
         [Test]
